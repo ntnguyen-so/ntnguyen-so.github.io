@@ -36,6 +36,7 @@ p + p { margin-top: 1rem; }
 .hero .eyebrow { color: var(--accent); }
 h1 { font-size: clamp(2.8rem, 5.4vw, 4.7rem); }
 h1 span { color: var(--accent); }
+.hero-role { margin-top: 1rem; font-size: 1.1rem; font-weight: 600; color: #e0e7dd; }
 .hero-description { font-size: 1.2rem; max-width: 570px; margin-top: 1.6rem; color: #e0e7dd; }
 .hero-background { font-size: .92rem; color: #bdcec5; margin-top: 1.3rem; }
 .actions { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 2rem; }
@@ -46,19 +47,27 @@ h1 span { color: var(--accent); }
 .button-outline:hover { background: #24433e; }
 .hero-note { background: #203d39; border: 1px solid #3c5b50; border-radius: 12px; padding: 2rem; }
 .note-label { font-size: .65rem; font-weight: 700; letter-spacing: .13em; color: #c2d2c9; }
-.signal { margin: 1.25rem -.5rem; }
-.signal svg { width: 100%; display: block; }
-.signal-grid { stroke: #35584c; stroke-width: 1; }
-.signal-line { stroke: #d5e3c1; stroke-width: 2; }
-.signal-point { fill: var(--accent); stroke: #203d39; stroke-width: 3; }
-.hero-note h2 { font-size: 1.9rem; }
+.hero-note h2 { font-size: 1.9rem; margin-top: 1.2rem; }
 .hero-note > p:not(.note-label) { font-size: .88rem; color: #c2d2c9; margin-top: 1rem; }
+.hiring-summary { margin: 1.3rem 0 0; }
+.hiring-summary > div { padding: .8rem 0; }
+.hiring-summary > div + div { border-top: 1px solid #3e5b50; }
+.hiring-summary dt { color: #a9c3b5; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; }
+.hiring-summary dd { margin: .25rem 0 0; font-size: .92rem; }
+.cv-link { display: inline-block; color: var(--accent); margin-top: 1.4rem; font-size: .85rem; font-weight: 600; }
 .note-tags { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 1.5rem; }
 .note-tags span { border: 1px solid #547367; border-radius: 30px; padding: .2rem .6rem; font-size: .68rem; color: #dae3d8; }
 .section { padding-block: 5.5rem; }
 .section-heading { display: flex; gap: 3rem; align-items: end; justify-content: space-between; margin-bottom: 3rem; }
 .section-heading h2 { max-width: 600px; }
 .section-heading > p { max-width: 350px; color: var(--muted); font-size: .95rem; }
+.experience-section { padding-bottom: 0; }
+.experience-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.experience-card { padding: 1.7rem; border: 1px solid var(--line); border-radius: 8px; background: #fffefa; }
+.experience-date { font-size: .67rem; font-weight: 700; letter-spacing: .08em; color: var(--green); }
+.experience-card h3 { margin-top: .7rem; font-size: 1.35rem; letter-spacing: -.02em; }
+.experience-card .experience-role { margin-top: .65rem; font-size: .85rem; font-weight: 600; color: var(--ink); }
+.experience-card > p:last-child { color: var(--muted); font-size: .86rem; }
 .project { display: grid; grid-template-columns: 1.08fr 1fr; gap: 3rem; align-items: center; border-top: 1px solid var(--line); padding-block: 3.5rem; }
 .project:last-child { padding-bottom: 0; }
 .project-index { color: var(--green); font-size: .7rem; letter-spacing: .12em; font-weight: 700; margin-bottom: .75rem; }
@@ -105,6 +114,8 @@ figcaption span { color: var(--muted); }
 .contact-inner h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
 .contact-inner p:not(.eyebrow) { color: #c2d2c9; font-size: .95rem; margin-top: 1rem; }
 .contact-inner .button { flex-shrink: 0; }
+.contact-actions { display: flex; flex-direction: column; gap: .7rem; flex-shrink: 0; }
+.contact-email { display: inline-block; margin-top: 1.2rem; color: var(--accent); font-size: 1.05rem; }
 .site-footer { display: flex; justify-content: space-between; gap: 1rem; padding-block: 1.6rem; font-size: .75rem; color: var(--muted); }
 .site-footer p span { margin-inline: .5rem; }
 
@@ -128,7 +139,7 @@ figcaption span { color: var(--muted); }
   .brand { font-size: .86rem; }
   .nav-links { width: 100%; justify-content: space-between; padding-top: .5rem; font-size: .8rem; }
   .hero { padding-block: 3rem; }
-  .hero-grid, .project, .about-grid, .principles { grid-template-columns: 1fr; }
+  .hero-grid, .project, .about-grid, .principles, .experience-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 2.5rem; }
   .hero-description { font-size: 1.05rem; }
   .hero-background { font-size: .84rem; }
