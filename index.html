@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ngoc Thanh Nguyen | AI Engineering Portfolio</title>
+  <meta name="description" content="AI engineering portfolio of Ngoc Thanh Nguyen, PhD and Software Engineer II at Microsoft. Adaptive anomaly detection, interpretable ML, and evidence-backed AI agents.">
+  <meta property="og:title" content="Ngoc Thanh Nguyen | AI Engineering Portfolio">
+  <meta property="og:description" content="Research depth. Production mindset. Explore AdapAD, MuMSAD, and evidence-backed industrial AI workflows.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ntnguyen-so.github.io/">
+  <meta name="theme-color" content="#132b2b">
+  <link rel="canonical" href="https://ntnguyen-so.github.io/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container navigation" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ngoc Thanh Nguyen, home"><span class="monogram">NT</span> Ngoc Thanh Nguyen<span class="brand-degree">, PhD</span></a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/ntnguyen-so">GitHub <span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">AI ENGINEER / RESEARCHER / BUILDER</p>
+          <h1 id="hero-title">AI engineering.<br><span>Grounded in evidence.</span></h1>
+          <p class="hero-description">I turn complex sensor data and model outputs into systems that engineers can inspect, evaluate, and use.</p>
+          <p class="hero-background">Software Engineer II at Microsoft. PhD in Computer Science.<br>10+ years across cloud, industrial data, and real-time systems.</p>
+          <div class="actions">
+            <a class="button button-primary" href="#projects">Explore selected work <span aria-hidden="true">&#8595;</span></a>
+            <a class="button button-outline" href="https://www.linkedin.com/in/ngoc-thanh-nguyen-b39b87118/">Let's connect <span aria-hidden="true">&#8599;</span></a>
+          </div>
+        </div>
+        <aside class="hero-note" aria-label="Engineering focus">
+          <p class="note-label">RESEARCH DEPTH. PRODUCTION MINDSET.</p>
+          <div class="signal" aria-hidden="true">
+            <svg viewBox="0 0 360 110" fill="none">
+              <path class="signal-grid" d="M0 25H360M0 55H360M0 85H360M45 0V110M105 0V110M165 0V110M225 0V110M285 0V110M345 0V110"/>
+              <path class="signal-line" d="M0 57L14 55L25 62L36 51L47 55L58 49L69 62L80 53L91 57L102 50L113 56L124 58L135 51L146 57L157 54L168 19L179 87L190 48L201 55L212 50L223 60L234 49L245 56L256 52L267 58L278 53L289 56L300 50L311 59L322 51L333 57L345 54L360 56"/>
+              <circle cx="168" cy="19" r="7" class="signal-point"/>
+            </svg>
+          </div>
+          <h2>Not just an answer.<br>A reason to trust it.</h2>
+          <p>Adaptive detection. Interpretable models. Evidence-backed agents. Clear boundaries between a suggestion and an authorized action.</p>
+          <div class="note-tags"><span>Time-series ML</span><span>Production agents</span><span>Industrial AI</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2 id="projects-title">From research to working software.</h2></div>
+        <p>Start with the research foundations, then explore the agent workflows. Each project links to code and supporting evidence.</p>
+      </div>
+
+      <article class="project" id="adapad" aria-labelledby="adapad-title">
+        <div class="project-content">
+          <p class="project-index">01 / PUBLISHED RESEARCH</p>
+          <h3 id="adapad-title">AdapAD</h3>
+          <p class="project-tagline">Sensor streams change.<br>Your detector should adapt.</p>
+          <p>A semi-supervised, concept-drift-adaptive anomaly detector for univariate marine sensor streams. Designed for data whose behavior evolves over time.</p>
+          <p>The repository includes expert-labelled data, benchmark results, validation experiments, and replication instructions. My PhD work also integrated AdapAD into the Azure-hosted Smart Ocean platform.</p>
+          <div class="tags" aria-label="AdapAD technologies"><span>Python</span><span>Time series</span><span>Concept drift</span><span>Data quality</span></div>
+          <div class="project-links">
+            <a href="https://github.com/ntnguyen-so/AdapAD_alg">Explore code <span aria-hidden="true">&#8599;</span></a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S254266052400355X">Read the paper <span aria-hidden="true">&#8599;</span></a>
+          </div>
+        </div>
+        <figure class="project-visual">
+          <div class="figure-image"><img src="https://raw.githubusercontent.com/ntnguyen-so/AdapAD_alg/main/assets/operation_flow.png" alt="AdapAD operation-flow diagram from the research repository" loading="lazy" decoding="async"></div>
+          <figcaption><span>Internet of Things</span><strong>Published in 2024</strong></figcaption>
+        </figure>
+      </article>
+
+      <article class="project" id="mumsad" aria-labelledby="mumsad-title">
+        <div class="project-content">
+          <p class="project-index">02 / INTERPRETABLE MACHINE LEARNING</p>
+          <h3 id="mumsad-title">MuMSAD</h3>
+          <p class="project-tagline">Find the anomaly.<br>Help explain what went wrong.</p>
+          <p>An interpretable AutoML framework that selects among 10 multivariate anomaly detectors, supporting marine data-quality control and root-cause analysis.</p>
+          <p>Applications include identifying malfunctioning sensors. The repository provides deep-learning and feature-based selectors, benchmark tooling, and reproducibility guides.</p>
+          <div class="tags" aria-label="MuMSAD technologies"><span>Python</span><span>AutoML</span><span>Multivariate ML</span><span>Interpretability</span></div>
+          <div class="project-links">
+            <a href="https://github.com/ntnguyen-so/MuMSAD_framework">Explore code <span aria-hidden="true">&#8599;</span></a>
+            <a href="https://inria.hal.science/hal-05630535/file/ieeebigdata25-marineanomalies.pdf">Read the paper <span aria-hidden="true">&#8599;</span></a>
+          </div>
+        </div>
+        <figure class="project-visual">
+          <div class="figure-image"><img src="https://raw.githubusercontent.com/ntnguyen-so/MuMSAD_framework/main/assets/pipeline.PNG" alt="MuMSAD model-selection pipeline from the research repository" loading="lazy" decoding="async"></div>
+          <figcaption><span>Interpretable model selection</span><strong>10 anomaly detectors</strong></figcaption>
+        </figure>
+      </article>
+
+      <article class="project" id="subsea-lens" aria-labelledby="subsea-title">
+        <div class="project-content">
+          <p class="project-index">03 / FULL-STACK MULTI-AGENT DEMO</p>
+          <h3 id="subsea-title">Subsea Lens</h3>
+          <p class="project-tagline">From pressure alerts<br>to an inspection decision.</p>
+          <p>Three agents assess sensor quality, investigate possible causes, and assemble an operator report. An additional review checks the report against its sources.</p>
+          <p>A full-stack dashboard connects a simulated 11.2 km pipeline network, 112 pressure instruments, evidence references, and replayable evaluations. Saved evaluation playback needs no Copilot account.</p>
+          <div class="tags" aria-label="Subsea Lens technologies"><span>FastAPI</span><span>LangGraph</span><span>TypeScript</span><span>PostgreSQL</span><span>OpenTelemetry</span></div>
+          <div class="project-links">
+            <a href="https://github.com/ntnguyen-so/subsea-integrity-copilot">Code &amp; demo setup <span aria-hidden="true">&#8599;</span></a>
+            <a href="https://github.com/ntnguyen-so/subsea-integrity-copilot/blob/main/docs/RESULTS.md">Evaluation evidence <span aria-hidden="true">&#8599;</span></a>
+            <a href="https://github.com/ntnguyen-so/subsea-integrity-copilot/blob/main/docs/ONE_PAGE_BRIEF.pdf">One-page brief <span aria-hidden="true">&#8599;</span></a>
+          </div>
+          <p class="boundary">Synthetic-data demonstration, not a deployed safety system. Engineers review findings before acting.</p>
+        </div>
+        <figure class="project-visual">
+          <div class="figure-image"><img src="https://raw.githubusercontent.com/ntnguyen-so/subsea-integrity-copilot/main/docs/assets/brief-agent-assisted.png" alt="Subsea Lens dashboard showing a suspected leak, inspection priorities, and separate sensor-quality concerns" loading="lazy" decoding="async"></div>
+          <figcaption><span>Simulated pipeline monitoring</span><strong>112 pressure instruments</strong></figcaption>
+        </figure>
+      </article>
+
+      <article class="project" id="inspection-triage" aria-labelledby="triage-title">
+        <div class="project-content">
+          <p class="project-index">04 / GOVERNED AI WORKFLOW</p>
+          <h3 id="triage-title">Inspection Finding Triage</h3>
+          <p class="project-tagline">The model proposes.<br>The engineer approves.</p>
+          <p>A Python workflow that turns 21 offshore inspection findings and an equipment registry into structured draft maintenance tickets.</p>
+          <p>Deterministic checks validate evidence and coverage, calculate urgency, and apply review rules. The complete batch is written only when every finding has a valid ticket; otherwise the previous output stays unchanged.</p>
+          <div class="tags" aria-label="Inspection Triage technologies"><span>Python</span><span>Azure OpenAI</span><span>Copilot SDK</span><span>JSON Schema</span></div>
+          <div class="project-links">
+            <a href="https://github.com/ntnguyen-so/inspection-finding-triage">Explore code <span aria-hidden="true">&#8599;</span></a>
+            <a href="https://github.com/ntnguyen-so/inspection-finding-triage/blob/main/DESIGN.md">Architecture <span aria-hidden="true">&#8599;</span></a>
+            <a href="https://github.com/ntnguyen-so/inspection-finding-triage/tree/main/eval/results">Recorded evaluations <span aria-hidden="true">&#8599;</span></a>
+          </div>
+          <p class="boundary">Engineering case study. Tickets are drafts, not authorization to perform work.</p>
+        </div>
+        <div class="workflow-visual" aria-label="Inspection Triage workflow">
+          <p class="note-label">A CLEAR HANDOFF AT EVERY STEP</p>
+          <ol class="workflow">
+            <li><span>01</span><div><strong>Read the evidence</strong><p>Findings, equipment records, reviewed guidance.</p></div></li>
+            <li><span>02</span><div><strong>Model proposes a draft</strong><p>Assessment, uncertainty, planning text.</p></div></li>
+            <li><span>03</span><div><strong>Code checks the batch</strong><p>Schema, evidence, coverage, review rules.</p></div></li>
+            <li><span>04</span><div><strong>Human approval</strong><p>No work is authorized by the model.</p></div></li>
+          </ol>
+          <p class="workflow-footer">21 findings. Complete valid batches only.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="approach-section" id="approach" aria-labelledby="approach-title">
+      <div class="container">
+        <p class="eyebrow">HOW I WORK</p>
+        <h2 id="approach-title">Useful AI needs more than a model.</h2>
+        <div class="principles">
+          <article><span class="principle-number">01</span><h3>Start with the evidence.</h3><p>Understand the data, the operational question, and the cost of being wrong before choosing a method.</p></article>
+          <article><span class="principle-number">02</span><h3>Make it inspectable.</h3><p>Expose sources, uncertainty, model behavior, and evaluation results so another engineer can challenge the output.</p></article>
+          <article><span class="principle-number">03</span><h3>Engineer the handoff.</h3><p>Use validation, explicit failure behavior, and human-review boundaries to connect AI to a working system.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container about-grid" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">ABOUT ME</p>
+        <h2 id="about-title">Research depth.<br>Production experience.</h2>
+        <p>I'm Ngoc Thanh Nguyen, a Software Engineer II at Microsoft with a PhD in Computer Science from Western Norway University of Applied Sciences.</p>
+        <p>My PhD focused on automatic marine data-quality control: adaptive anomaly detection, interpretable model selection, and integration into the Azure-hosted Smart Ocean platform.</p>
+        <p>Earlier, I built financial systems at CODIX and led five engineers delivering a real-time C/C++ library connecting MATLAB/Simulink to automotive microcontrollers at Renesas.</p>
+        <a class="text-link" href="https://nva.sikt.no/registration/019a4e0e27ac-8956b637-ef89-49b7-a45c-ae180965d2f8">Explore my PhD thesis <span aria-hidden="true">&#8599;</span></a>
+      </div>
+      <div class="stack-panel">
+        <h3>Technical toolkit</h3>
+        <dl>
+          <div><dt>Agents &amp; AI</dt><dd>LangGraph, LangChain, MCP, Microsoft Foundry</dd></div>
+          <div><dt>Backend &amp; cloud</dt><dd>Python / FastAPI, TypeScript / Node.js, Azure, SQL / KQL, PostgreSQL</dd></div>
+          <div><dt>Applied ML</dt><dd>PyTorch, scikit-learn, time-series analysis, anomaly detection, AutoML</dd></div>
+          <div><dt>Reliability</dt><dd>Evaluation, schema validation, human review, OpenTelemetry, Langfuse</dd></div>
+          <div><dt>Systems</dt><dd>C/C++, MATLAB/Simulink, industrial sensor data</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2 id="contact-title">Building AI for real-world problems?</h2><p>I'd be glad to talk about production agents, applied ML, and industrial systems.</p></div>
+        <a class="button button-primary" href="https://www.linkedin.com/in/ngoc-thanh-nguyen-b39b87118/">Connect on LinkedIn <span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <p>Ngoc Thanh Nguyen, PhD <span aria-hidden="true">/</span> AI Engineering Portfolio</p>
+    <a href="https://github.com/ntnguyen-so">GitHub <span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</body>
+</html>
