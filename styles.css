@@ -85,14 +85,6 @@ h1 span { color: var(--accent); }
 figcaption { display: flex; flex-wrap: wrap; gap: .4rem 1rem; justify-content: space-between; padding: 1rem 1.25rem; background: #edf0e8; font-size: .75rem; border-top: 1px solid var(--line); }
 figcaption span { color: var(--muted); }
 .boundary { font-size: .76rem; color: #59665e; border-left: 2px solid #baa25e; padding-left: .8rem; margin-top: 1.2rem; }
-.workflow-visual { padding: 1.8rem; background: #203d39; border-radius: 10px; color: var(--paper); }
-.workflow { padding: 0; margin: 1.5rem 0; list-style: none; }
-.workflow li { display: flex; gap: .9rem; padding: .9rem 0; }
-.workflow li + li { border-top: 1px solid #3e5b50; }
-.workflow li > span { display: grid; place-items: center; width: 32px; height: 32px; flex-shrink: 0; background: #35584c; color: var(--accent); border-radius: 50%; font-size: .7rem; }
-.workflow strong { font-size: .9rem; }
-.workflow p { font-size: .8rem; color: #c2d2c9; margin-top: .2rem; }
-.workflow-footer { font-size: .75rem; color: var(--accent); }
 .approach-section { background: #e9ede2; padding-block: 4.5rem; }
 .principles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin-top: 2.5rem; }
 .principle-number { font-size: .8rem; color: var(--green); font-weight: 700; }
